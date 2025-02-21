@@ -1,0 +1,1855 @@
+fileFormatVersion: 2
+guid: 4cbc5a2ea4ebf754d854e334cf33808a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7658261541567134532
+    second: Momo_0
+  - first:
+      213: -7268681454018308212
+    second: Momo_1
+  - first:
+      213: 5035383247427884069
+    second: Momo_2
+  - first:
+      213: -2877642391690189448
+    second: Momo_3
+  - first:
+      213: -6299773081952880505
+    second: Momo_4
+  - first:
+      213: 8627688122202442915
+    second: Momo_5
+  - first:
+      213: 3079251096999420519
+    second: Momo_6
+  - first:
+      213: 1149954212009217207
+    second: Momo_7
+  - first:
+      213: -7645108808533225073
+    second: Momo_8
+  - first:
+      213: -5963824966036418981
+    second: Momo_9
+  - first:
+      213: -1366902204283447521
+    second: Momo_10
+  - first:
+      213: 633635420016425515
+    second: Momo_11
+  - first:
+      213: 2405968184349082854
+    second: Momo_12
+  - first:
+      213: -5506554826936205385
+    second: Momo_13
+  - first:
+      213: -7589504186086604237
+    second: Momo_14
+  - first:
+      213: 6445204606337496023
+    second: Momo_15
+  - first:
+      213: -6631125053259559651
+    second: Momo_16
+  - first:
+      213: -1003310478721436783
+    second: Momo_17
+  - first:
+      213: 291493479331562930
+    second: Momo_18
+  - first:
+      213: -6764579214658220914
+    second: Momo_19
+  - first:
+      213: -435276184347673726
+    second: Momo_20
+  - first:
+      213: -6904474611768125384
+    second: Momo_21
+  - first:
+      213: 7169313752580044809
+    second: Momo_22
+  - first:
+      213: 8041712680289027278
+    second: Momo_23
+  - first:
+      213: -5926369219612798286
+    second: Momo_24
+  - first:
+      213: 2078036571705069926
+    second: Momo_25
+  - first:
+      213: -2123467584350516283
+    second: Momo_26
+  - first:
+      213: -4030240800546238943
+    second: Momo_27
+  - first:
+      213: -5088872657656404146
+    second: Momo_28
+  - first:
+      213: -7659167716497590525
+    second: Momo_29
+  - first:
+      213: -8129927042120541034
+    second: Momo_30
+  - first:
+      213: -1024940288643827673
+    second: Momo_31
+  - first:
+      213: -1619937329608709476
+    second: Momo_32
+  - first:
+      213: 6216824886866150678
+    second: Momo_33
+  - first:
+      213: -8811582898035802963
+    second: Momo_34
+  - first:
+      213: 1449273487862139540
+    second: Momo_35
+  - first:
+      213: -204392521315057409
+    second: Momo_36
+  - first:
+      213: -203176610349351400
+    second: Momo_37
+  - first:
+      213: -3879418067705504781
+    second: Momo_38
+  - first:
+      213: 5335417924181754268
+    second: Momo_39
+  - first:
+      213: -23729869942625791
+    second: Momo_40
+  - first:
+      213: 770308796693707188
+    second: Momo_41
+  - first:
+      213: -1934230513180936585
+    second: Momo_42
+  - first:
+      213: 4492067357596231498
+    second: Momo_43
+  - first:
+      213: -6500747372325607351
+    second: Momo_44
+  - first:
+      213: 1716008134233415468
+    second: Momo_45
+  - first:
+      213: 4068524920447955005
+    second: Momo_46
+  - first:
+      213: 8302083354490947181
+    second: Momo_47
+  - first:
+      213: 9211690585793084890
+    second: Momo_48
+  - first:
+      213: 7370471281115326675
+    second: Momo_49
+  - first:
+      213: 7752956239442098981
+    second: Momo_50
+  - first:
+      213: -8826716271798504483
+    second: Momo_51
+  - first:
+      213: 1374134539000150324
+    second: Momo_52
+  - first:
+      213: -4337201043825211080
+    second: Momo_53
+  - first:
+      213: -2535770322994150067
+    second: Momo_54
+  - first:
+      213: 1896776068310940808
+    second: Momo_55
+  - first:
+      213: -6177619123261382347
+    second: Momo_56
+  - first:
+      213: 4371918614429715
+    second: Momo_57
+  - first:
+      213: -901523941697150506
+    second: Momo_58
+  - first:
+      213: -939555192902258830
+    second: Momo_59
+  - first:
+      213: 8916691777781910966
+    second: Momo_60
+  - first:
+      213: -6004842812117490943
+    second: Momo_61
+  - first:
+      213: -3870128030497017875
+    second: Momo_62
+  - first:
+      213: -8578660414783753881
+    second: Momo_63
+  - first:
+      213: 7555499108187177366
+    second: Momo_64
+  - first:
+      213: -2811689126979481421
+    second: Momo_65
+  - first:
+      213: -6899834694830465716
+    second: Momo_66
+  - first:
+      213: 6688592309040020194
+    second: Momo_67
+  - first:
+      213: 1720567369096681069
+    second: Momo_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Momo_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 799
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bf42efb4c974a60800000000000000
+      internalID: 7658261541567134532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 703
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87d4cb8ab4702b90800000000000000
+      internalID: -7268681454018308212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 703
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52454ea826641e540800000000000000
+      internalID: 5035383247427884069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 703
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87563bcbd7f8018d0800000000000000
+      internalID: -2877642391690189448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 703
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78871a472c5b298a0800000000000000
+      internalID: -6299773081952880505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 703
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3accbbcb2a4bbb770800000000000000
+      internalID: 8627688122202442915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 703
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762e1e2ee82bbba20800000000000000
+      internalID: 3079251096999420519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 703
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc06ca534575ff00800000000000000
+      internalID: 1149954212009217207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_8
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81da2e4b0e17e590800000000000000
+      internalID: -7645108808533225073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_9
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e0bc48acc3c3da0800000000000000
+      internalID: -5963824966036418981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f179cf6ffa9c70de0800000000000000
+      internalID: -1366902204283447521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_11
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a3f2fae002bc800800000000000000
+      internalID: 633635420016425515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_12
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4c409f057b36120800000000000000
+      internalID: 2405968184349082854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_13
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 703
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf31445f89c493b0800000000000000
+      internalID: -5506554826936205385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 703
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c7f6572aaca690800000000000000
+      internalID: -7589504186086604237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_15
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 703
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d33579f077f17950800000000000000
+      internalID: 6445204606337496023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d4543b5e289f3a0800000000000000
+      internalID: -6631125053259559651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193b1647f668312f0800000000000000
+      internalID: -1003310478721436783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b586e966c79b0400800000000000000
+      internalID: 291493479331562930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 608
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c4e476b036f12a0800000000000000
+      internalID: -6764579214658220914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 608
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bf4c4dd9695f9f0800000000000000
+      internalID: -435276184347673726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8389bdc0ce06e20a0800000000000000
+      internalID: -6904474611768125384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_22
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 607
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9083bd19fd48e7360800000000000000
+      internalID: 7169313752580044809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 511
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4c16e6317e99f60800000000000000
+      internalID: 8041712680289027278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 415
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b29b21189e41cda0800000000000000
+      internalID: -5926369219612798286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 415
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66150c6804ba6dc10800000000000000
+      internalID: 2078036571705069926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 415
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb0bbe8b7de782e0800000000000000
+      internalID: -2123467584350516283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 415
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ec7245855b118c0800000000000000
+      internalID: -4030240800546238943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 415
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e472135a741b069b0800000000000000
+      internalID: -5088872657656404146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 415
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3077507ba8b25b590800000000000000
+      internalID: -7659167716497590525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c109ced62bc2f80800000000000000
+      internalID: -8129927042120541034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728f563ec3ea6c1f0800000000000000
+      internalID: -1024940288643827673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a274ed493d489e0800000000000000
+      internalID: -1619937329608709476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_33
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6150774eb49964650800000000000000
+      internalID: 6216824886866150678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_34
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac3bad3a08f6b580800000000000000
+      internalID: -8811582898035802963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_35
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a0a620f8adc1410800000000000000
+      internalID: 1449273487862139540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_36
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff00544b51ad92df0800000000000000
+      internalID: -204392521315057409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e757903fb2e2df0800000000000000
+      internalID: -203176610349351400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_38
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 415
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb5e2b42d9892ac0800000000000000
+      internalID: -3879418067705504781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 319
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c910b1375563b0a40800000000000000
+      internalID: 5335417924181754268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 319
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ae08b1fc1bbaff0800000000000000
+      internalID: -23729869942625791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 319
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b97942f4cfa0ba00800000000000000
+      internalID: 770308796693707188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776f024a89b3825e0800000000000000
+      internalID: -1934230513180936585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47a6a43677075e30800000000000000
+      internalID: 4492067357596231498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 319
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9486af115b4b8c5a0800000000000000
+      internalID: -6500747372325607351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_45
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 319
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fd9a86e4c70d710800000000000000
+      internalID: 1716008134233415468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_46
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 319
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ff13fbdd467830800000000000000
+      internalID: 4068524920447955005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 223
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66cd1813dce63370800000000000000
+      internalID: 8302083354490947181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_48
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addb10b38cf76df70800000000000000
+      internalID: 9211690585793084890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_49
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8e81a649c294660800000000000000
+      internalID: 7370471281115326675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_50
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 127
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b38137f98089b60800000000000000
+      internalID: 7752956239442098981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_51
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 127
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd33a461154318580800000000000000
+      internalID: -8826716271798504483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_52
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 127
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439f2be2518e11310800000000000000
+      internalID: 1374134539000150324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_53
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839485f41aa2fc3c0800000000000000
+      internalID: -4337201043825211080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_54
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45c4f983522fccd0800000000000000
+      internalID: -2535770322994150067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_55
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cb22ad8c3b25a10800000000000000
+      internalID: 1896776068310940808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_56
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53168584320b44aa0800000000000000
+      internalID: -6177619123261382347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_57
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3100000ac388f0000800000000000000
+      internalID: 4371918614429715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_58
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a1a260c42d73f0800000000000000
+      internalID: -901523941697150506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_59
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fef20b78706f2f0800000000000000
+      internalID: -939555192902258830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_60
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 127
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd4652ede37ebb70800000000000000
+      internalID: 8916691777781910966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_61
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 127
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103eda307438aaca0800000000000000
+      internalID: -6004842812117490943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def61f2af0b8a4ac0800000000000000
+      internalID: -3870128030497017875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_63
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 31
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761fb10fdc972f880800000000000000
+      internalID: -8578660414783753881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_64
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 31
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691074c78668ad860800000000000000
+      internalID: 7555499108187177366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 32
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b05f8fc2afdaf8d0800000000000000
+      internalID: -2811689126979481421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 32
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dd6b5e6ecde30a0800000000000000
+      internalID: -6899834694830465716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_67
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 31
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea7db37447a2dc50800000000000000
+      internalID: 6688592309040020194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Momo_68
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 31
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66d22ff7eea0e710800000000000000
+      internalID: 1720567369096681069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
