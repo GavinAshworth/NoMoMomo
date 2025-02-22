@@ -15,11 +15,15 @@ public class CameraTransition : MonoBehaviour
     {
         if (collision.CompareTag("Player")) // Ensure only momo can trigger just in case
         {
-            MoveCameraInstantly(); //right now this is instant, might try to add in an animation later
+            MoveCamera(); //right now this is instant, might try to add in an animation later
+            
+            //Also move momo up one tile after the transition so hes not half in half out
+            collision.transform.position += Vector3.up * 1f;
+
         }
     }
 
-    private void MoveCameraInstantly()
+    private void MoveCamera()
     {
         // Move the camera to the target position 
         mainCamera.transform.position = cameraTarget.position;
