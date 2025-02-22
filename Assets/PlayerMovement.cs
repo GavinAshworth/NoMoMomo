@@ -41,6 +41,9 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
+                //we stop the jump animation
+                animator.SetBool("isJumping", false); // Reset the jumping animation
+                moveDirection = Vector2.zero; // Reset input
                 Debug.Log("Cannot move outside the camera!");
             }
         }
