@@ -13,13 +13,15 @@ public class PlayerMovement : MonoBehaviour
 
 
     private float lastInputX = 0f;  //These keep track of where momo should be facing
-    private float lastInputY = -1f;
+    private float lastInputY = 1f;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        animator.SetFloat("LastInputY", lastInputY); //just making momo start facing forward
     }
 
     private void Update()
