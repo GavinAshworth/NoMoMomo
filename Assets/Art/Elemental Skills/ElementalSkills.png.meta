@@ -787,7 +787,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -801,7 +801,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -825,7 +825,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -866,10 +866,10 @@ TextureImporter:
       name: ElementalSkills_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 631
-        width: 12
-        height: 12
+        x: 0
+        y: 576
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,10 +888,10 @@ TextureImporter:
       name: ElementalSkills_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 640
-        width: 12
-        height: 12
+        x: 96
+        y: 576
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,10 +910,10 @@ TextureImporter:
       name: ElementalSkills_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 643
-        width: 12
-        height: 12
+        x: 192
+        y: 576
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +932,10 @@ TextureImporter:
       name: ElementalSkills_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 640
-        width: 12
-        height: 12
+        x: 0
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,10 +954,10 @@ TextureImporter:
       name: ElementalSkills_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 631
-        width: 12
-        height: 12
+        x: 96
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,10 +976,10 @@ TextureImporter:
       name: ElementalSkills_5
       rect:
         serializedVersion: 2
-        x: 123
-        y: 639
-        width: 12
-        height: 12
+        x: 192
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,10 +998,10 @@ TextureImporter:
       name: ElementalSkills_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 643
-        width: 12
-        height: 12
+        x: 288
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1020,10 +1020,10 @@ TextureImporter:
       name: ElementalSkills_7
       rect:
         serializedVersion: 2
-        x: 149
-        y: 641
-        width: 12
-        height: 12
+        x: 384
+        y: 480
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: ElementalSkills_8
       rect:
         serializedVersion: 2
-        x: 158
-        y: 633
-        width: 12
-        height: 12
+        x: 0
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,10 +1064,10 @@ TextureImporter:
       name: ElementalSkills_9
       rect:
         serializedVersion: 2
-        x: 216
-        y: 637
-        width: 12
-        height: 12
+        x: 96
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,10 +1086,10 @@ TextureImporter:
       name: ElementalSkills_10
       rect:
         serializedVersion: 2
-        x: 229
-        y: 643
-        width: 12
-        height: 12
+        x: 192
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: ElementalSkills_11
       rect:
         serializedVersion: 2
-        x: 241
-        y: 642
-        width: 12
-        height: 12
+        x: 288
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,10 +1130,10 @@ TextureImporter:
       name: ElementalSkills_12
       rect:
         serializedVersion: 2
-        x: 252
-        y: 637
-        width: 12
-        height: 12
+        x: 384
+        y: 384
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1152,10 +1152,10 @@ TextureImporter:
       name: ElementalSkills_13
       rect:
         serializedVersion: 2
-        x: 17
-        y: 618
-        width: 12
-        height: 12
+        x: 0
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,10 +1174,10 @@ TextureImporter:
       name: ElementalSkills_14
       rect:
         serializedVersion: 2
-        x: 67
-        y: 619
-        width: 12
-        height: 12
+        x: 96
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1196,10 +1196,10 @@ TextureImporter:
       name: ElementalSkills_15
       rect:
         serializedVersion: 2
-        x: 115
-        y: 629
-        width: 12
-        height: 12
+        x: 192
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: ElementalSkills_16
       rect:
         serializedVersion: 2
-        x: 163
-        y: 622
-        width: 12
-        height: 12
+        x: 288
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1240,10 +1240,10 @@ TextureImporter:
       name: ElementalSkills_17
       rect:
         serializedVersion: 2
-        x: 210
-        y: 626
-        width: 12
-        height: 12
+        x: 384
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,10 +1262,10 @@ TextureImporter:
       name: ElementalSkills_18
       rect:
         serializedVersion: 2
-        x: 258
-        y: 627
-        width: 12
-        height: 12
+        x: 0
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,10 +1284,10 @@ TextureImporter:
       name: ElementalSkills_19
       rect:
         serializedVersion: 2
-        x: 21
-        y: 607
-        width: 12
-        height: 12
+        x: 96
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1306,10 +1306,10 @@ TextureImporter:
       name: ElementalSkills_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 607
-        width: 12
-        height: 12
+        x: 192
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1328,10 +1328,10 @@ TextureImporter:
       name: ElementalSkills_21
       rect:
         serializedVersion: 2
-        x: 114
-        y: 616
-        width: 12
-        height: 12
+        x: 288
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,10 +1350,10 @@ TextureImporter:
       name: ElementalSkills_22
       rect:
         serializedVersion: 2
-        x: 119
-        y: 604
-        width: 12
-        height: 12
+        x: 384
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1372,10 +1372,10 @@ TextureImporter:
       name: ElementalSkills_23
       rect:
         serializedVersion: 2
-        x: 161
-        y: 609
-        width: 12
-        height: 12
+        x: 480
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1394,10 +1394,10 @@ TextureImporter:
       name: ElementalSkills_24
       rect:
         serializedVersion: 2
-        x: 210
-        y: 612
-        width: 12
-        height: 12
+        x: 576
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1416,10 +1416,10 @@ TextureImporter:
       name: ElementalSkills_25
       rect:
         serializedVersion: 2
-        x: 258
-        y: 614
-        width: 12
-        height: 12
+        x: 672
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1438,10 +1438,10 @@ TextureImporter:
       name: ElementalSkills_26
       rect:
         serializedVersion: 2
-        x: 29
-        y: 597
-        width: 12
-        height: 12
+        x: 768
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1460,10 +1460,10 @@ TextureImporter:
       name: ElementalSkills_27
       rect:
         serializedVersion: 2
-        x: 42
-        y: 593
-        width: 12
-        height: 12
+        x: 0
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1482,10 +1482,10 @@ TextureImporter:
       name: ElementalSkills_28
       rect:
         serializedVersion: 2
-        x: 56
-        y: 597
-        width: 12
-        height: 12
+        x: 96
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1504,10 +1504,10 @@ TextureImporter:
       name: ElementalSkills_29
       rect:
         serializedVersion: 2
-        x: 129
-        y: 596
-        width: 12
-        height: 12
+        x: 192
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1526,10 +1526,10 @@ TextureImporter:
       name: ElementalSkills_30
       rect:
         serializedVersion: 2
-        x: 142
-        y: 593
-        width: 12
-        height: 12
+        x: 288
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1548,10 +1548,10 @@ TextureImporter:
       name: ElementalSkills_31
       rect:
         serializedVersion: 2
-        x: 154
-        y: 599
-        width: 12
-        height: 12
+        x: 384
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,10 +1570,10 @@ TextureImporter:
       name: ElementalSkills_32
       rect:
         serializedVersion: 2
-        x: 218
-        y: 601
-        width: 12
-        height: 12
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1592,10 +1592,10 @@ TextureImporter:
       name: ElementalSkills_33
       rect:
         serializedVersion: 2
-        x: 229
-        y: 594
-        width: 12
-        height: 12
+        x: 96
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1614,10 +1614,10 @@ TextureImporter:
       name: ElementalSkills_34
       rect:
         serializedVersion: 2
-        x: 242
-        y: 594
-        width: 12
-        height: 12
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1636,10 +1636,10 @@ TextureImporter:
       name: ElementalSkills_35
       rect:
         serializedVersion: 2
-        x: 253
-        y: 601
-        width: 12
-        height: 12
+        x: 288
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1658,10 +1658,10 @@ TextureImporter:
       name: ElementalSkills_36
       rect:
         serializedVersion: 2
-        x: 24
-        y: 541
-        width: 12
-        height: 12
+        x: 384
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: ElementalSkills_37
       rect:
         serializedVersion: 2
-        x: 37
-        y: 547
-        width: 12
-        height: 12
+        x: 480
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1702,10 +1702,10 @@ TextureImporter:
       name: ElementalSkills_38
       rect:
         serializedVersion: 2
-        x: 49
-        y: 546
-        width: 12
-        height: 12
+        x: 576
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1724,10 +1724,10 @@ TextureImporter:
       name: ElementalSkills_39
       rect:
         serializedVersion: 2
-        x: 60
-        y: 541
-        width: 12
-        height: 12
+        x: 672
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1746,10 +1746,10 @@ TextureImporter:
       name: ElementalSkills_40
       rect:
         serializedVersion: 2
-        x: 119
-        y: 540
-        width: 13
-        height: 14
+        x: 768
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1768,10 +1768,10 @@ TextureImporter:
       name: ElementalSkills_41
       rect:
         serializedVersion: 2
-        x: 131
-        y: 546
-        width: 15
-        height: 13
+        x: 864
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1786,4609 +1786,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_42
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 545
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48b957989e12576c0800000000000000
-      internalID: -4146370595007390844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_43
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 541
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dab1fa372e338a30800000000000000
-      internalID: 4216282014362483416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_44
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 541
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4420a6e7f586ea70800000000000000
-      internalID: 8855913017043330122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_45
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 549
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a19040a244f76f5e0800000000000000
-      internalID: -1876172264013821670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_46
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 547
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 658ab792a8a0d73d0800000000000000
-      internalID: -3207395771100190634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_47
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 546
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4047f28cac5cc7740800000000000000
-      internalID: 5151209548537623556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_48
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 546
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69ee43ab471840530800000000000000
-      internalID: 3820320722257243798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_49
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 549
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a5934b581dc6c520800000000000000
-      internalID: 2722088529286108578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_50
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 547
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07f4f25eec5bbf3e0800000000000000
-      internalID: -2018820107732562064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_51
-      rect:
-        serializedVersion: 2
-        x: 339
-        y: 546
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c643e9aca323a760800000000000000
-      internalID: 7467851831602005703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_52
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 495
-        width: 25
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5258294a53f78290800000000000000
-      internalID: -7888068653216148900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_53
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 530
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a4b58b6373120a70800000000000000
-      internalID: 8791610809026720929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_54
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 516
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90ce9e4d7fec14440800000000000000
-      internalID: 4918439831889636361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_55
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 505
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 733b4c61fc31441e0800000000000000
-      internalID: -2214623336598293705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_56
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 498
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eccf20631f8e4c760800000000000000
-      internalID: 7477357404032793806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_57
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 498
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c39de41a8bbc1fa80800000000000000
-      internalID: -8434736633247508164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_58
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 505
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55ae05a62ae7dfc00800000000000000
-      internalID: 936043533596420693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_59
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 531
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d2a19838bebd2ac0800000000000000
-      internalID: -3878234005663800619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_60
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 518
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3395d31449ca51760800000000000000
-      internalID: 7428032913167178035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_61
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 515
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72fc563c8bfb49370800000000000000
-      internalID: 8328492411188006695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_62
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 527
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e30d7ad03a97b5d0800000000000000
-      internalID: -3046797088278117402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_63
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 503
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5eb7c5a8def0e3d0800000000000000
-      internalID: -3179261130475848101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_64
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 497
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b382679af7adfba0800000000000000
-      internalID: -6053497629392600138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_65
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 497
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae2f73afb57572c50800000000000000
-      internalID: 6640372228132696810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_66
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 502
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3d945bc8deece0a0800000000000000
-      internalID: -6850838318245700290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_67
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 529
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 199f43ef0701cfd90800000000000000
-      internalID: -7062752038136514159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_68
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 516
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72a0f70c90ea6ff70800000000000000
-      internalID: 9220748643995159079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_69
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 532
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c3f790ce4468b710800000000000000
-      internalID: 1709226347988513736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_70
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 513
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a71588067508a9bd0800000000000000
-      internalID: -2622642720219836038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_71
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 530
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e42386ea1b002ae0800000000000000
-      internalID: -1576247659415264025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_72
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 498
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc57cb7cbd8590ee0800000000000000
-      internalID: -1294405716920207923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_73
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 501
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e4eb7147ded2b950800000000000000
-      internalID: 6463473431328056548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_74
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 495
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0a9811891b8a2e90800000000000000
-      internalID: -7049669325038773749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_75
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 495
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 371beeec23bef3230800000000000000
-      internalID: 3620871228881809779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_76
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 500
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 837254f9d0f98a560800000000000000
-      internalID: 7325279674773612344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_77
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 541
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48341e169c94d1630800000000000000
-      internalID: 3899353981652124548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_78
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 516
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ee7cbd2382117740800000000000000
-      internalID: 5147916203678531303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_79
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 531
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4deac5270db2fc9a0800000000000000
-      internalID: -6210697186848756012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_80
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 508
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e58391c4799a8270800000000000000
-      internalID: 8253577993852782057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_81
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 536
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 385def770edcb38b0800000000000000
-      internalID: -5171313383135324797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_82
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 530
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67acd2955b1485ab0800000000000000
-      internalID: -5019189537563358602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_83
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 510
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 497a74e4b135f8df0800000000000000
-      internalID: -175830483701618796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_84
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 498
-        width: 19
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15de87e2510d34b00800000000000000
-      internalID: 811721147249388881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_85
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 541
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ac2469c02bbdb720800000000000000
-      internalID: 2863650687569636513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_86
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 495
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 749cda1de64d11530800000000000000
-      internalID: 3824071131043580231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_87
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 495
-        width: 35
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 272252672d1fe3af0800000000000000
-      internalID: -414628229443935630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_88
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 502
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa9e3ebda896e9860800000000000000
-      internalID: 7538578871380339114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_89
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 495
-        width: 35
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb86c804a392b6a80800000000000000
-      internalID: -8472632943799670593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_90
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 399
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0a0c31ad2133b250800000000000000
-      internalID: 5959160803989654026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_91
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 399
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca79ace41219697a0800000000000000
-      internalID: -6370745050627139668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_92
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 399
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f31cac247daa32970800000000000000
-      internalID: 8729008344289427775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_93
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 305
-        width: 66
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0081f9d5fbf9c1950800000000000000
-      internalID: 6421182812981762048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_94
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 399
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0498f378a648760e0800000000000000
-      internalID: -2276705493542008512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_95
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 324
-        width: 15
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed6f05d56fbb34080800000000000000
-      internalID: -9204306546613225762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_96
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 309
-        width: 63
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce0fe2a37d6b3dde0800000000000000
-      internalID: -1309502031124303636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_97
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 338
-        width: 55
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92825b7d49b10e120800000000000000
-      internalID: 2440981324122892329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_98
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 353
-        width: 33
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bd2c021e7d0e5e30800000000000000
-      internalID: 4494044313282162102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_99
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 338
-        width: 28
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe8615f46c2fc5830800000000000000
-      internalID: 4061387897529526511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_100
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 347
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a41eefdfe5de1ab0800000000000000
-      internalID: -5035352107122813786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_101
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 338
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca6364e186eb39a70800000000000000
-      internalID: 8832612648597468844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_102
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 354
-        width: 33
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d9c88edc0fbe1e60800000000000000
-      internalID: 7934989655467411920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_103
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 338
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54f94c857752b7bd0800000000000000
-      internalID: -2631468362747306171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_104
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 345
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9e7df8120084d2d0800000000000000
-      internalID: -3254835884184469859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_105
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 347
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9b38710b6fdcc8e0800000000000000
-      internalID: -1671715710982145125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_106
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 342
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c71fbc4cfb37f9a0800000000000000
-      internalID: -6199420407246809145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_107
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 323
-        width: 47
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adb5f7410b6335260800000000000000
-      internalID: 7085066768669957082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_108
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 329
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d8529407790d2ef0800000000000000
-      internalID: -131438407341418286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_109
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 307
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c1c6758d71862390800000000000000
-      internalID: -7843439324909092408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_110
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 325
-        width: 32
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3337d6bcd4eb38c30800000000000000
-      internalID: 4360538105559479091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_111
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 337
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c09458b7c3e4a6a0800000000000000
-      internalID: -6438771120302419776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_112
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 336
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8497a5625f48f13a0800000000000000
-      internalID: -6692484332803950264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_113
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 334
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a975cd9a6574d480800000000000000
-      internalID: -8875339864866457176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_114
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 329
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41b3220542f15c770800000000000000
-      internalID: 8630338501749127956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_115
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 326
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92bcd5ec07b65af00800000000000000
-      internalID: 1127425413968939817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_116
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 321
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d59a85fd6ce903870800000000000000
-      internalID: 8660596660421306717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_117
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 303
-        width: 39
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0736123d7f77f1b00800000000000000
-      internalID: 801491164978045808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_118
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 311
-        width: 26
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d139b8ee72ebeed10800000000000000
-      internalID: 2156870350272172829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_119
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 307
-        width: 40
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a02872a40f6ef6e30800000000000000
-      internalID: 4499068472477057546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_120
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 329
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8146ba761ac9318d0800000000000000
-      internalID: -2876783519916661736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_121
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 328
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f509ea3263acd5d10800000000000000
-      internalID: 2116069733809688671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_122
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 303
-        width: 35
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abedc837dedf7e240800000000000000
-      internalID: 4821101122411093690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_123
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 303
-        width: 31
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887f954f240b70960800000000000000
-      internalID: 7568211500433274760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_124
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 312
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e4179bf9110eb510800000000000000
-      internalID: 1566690931478303977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_125
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 311
-        width: 15
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b32b6558710be5e50800000000000000
-      internalID: 6800066102443815483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_126
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 303
-        width: 25
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9b2213c34479f800800000000000000
-      internalID: 646675855888755615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_127
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 313
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd0ea26d1f83c7050800000000000000
-      internalID: 5799573031477764319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_128
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 312
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1b2a6435bfbf6060800000000000000
-      internalID: 6948983535045323548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_129
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 305
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 851925ca602ebe710800000000000000
-      internalID: 1723719800688120152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_130
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 312
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98c017bf1577c8040800000000000000
-      internalID: 4651223709161426057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_131
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 207
-        width: 65
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9bd7e4b0cad396f0800000000000000
-      internalID: -678958597599143012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_132
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 208
-        width: 65
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9081ea58190da24a0800000000000000
-      internalID: -6617247379035908087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_133
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 207
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0c9144821b3d3ec0800000000000000
-      internalID: -3585644777602704373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_134
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 207
-        width: 64
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2c671ef6db198860800000000000000
-      internalID: 7532582461953764398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_135
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 208
-        width: 64
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a063892ac8220220800000000000000
-      internalID: 2450565995987951784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_136
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 207
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b43af0d5fc3b5b2a0800000000000000
-      internalID: -6722269165579689141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_137
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 207
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06c1b578644ccc780800000000000000
-      internalID: -8661332176142656416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_138
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 207
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c27b4632fff715f10800000000000000
-      internalID: 2256725622076520236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_139
-      rect:
-        serializedVersion: 2
-        x: 783
-        y: 207
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b715f361904877500800000000000000
-      internalID: 393928666981028219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_140
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 156
-        width: 59
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70ecfd4ac4ed7ff40800000000000000
-      internalID: 5762318669008850439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_141
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 156
-        width: 59
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 944f03f39e4ed8900800000000000000
-      internalID: 688458008496239689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_142
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 171
-        width: 19
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3bd1e4cb7745f9f0800000000000000
-      internalID: -435363192061699265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_143
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 171
-        width: 19
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3712b1c358699c30800000000000000
-      internalID: 4366636022653654844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_144
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 166
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f40a2b988f9517690800000000000000
-      internalID: -7606199371655110577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_145
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 171
-        width: 19
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ba5fbe6ea7cf4a00800000000000000
-      internalID: 743032015535692464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_146
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 166
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 126370791b722fc30800000000000000
-      internalID: 4391616230336181793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_147
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 111
-        width: 60
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10c3cb1d762828c50800000000000000
-      internalID: 6666033780873772033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_148
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 113
-        width: 65
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf756216bc639f910800000000000000
-      internalID: 1871587367285315580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_149
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 147
-        width: 63
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e467bae3103f48e0800000000000000
-      internalID: -1707092871649729310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_150
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 157
-        width: 18
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82fcf942c249fc2a0800000000000000
-      internalID: -6714985602072195288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_151
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 164
-        width: 18
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13610c2fb3caeaf20800000000000000
-      internalID: 3435872939205989937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_152
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 153
-        width: 29
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 694c04952506727d0800000000000000
-      internalID: -2943277924662328170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_153
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 156
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 482106354c8db89d0800000000000000
-      internalID: -2770882807992413564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_154
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 159
-        width: 23
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c11228c2503a35b50800000000000000
-      internalID: 6580782723135316252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_155
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 159
-        width: 22
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e22b420b2c928fb0800000000000000
-      internalID: -4646980156956925210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_156
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 150
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9af0cc695fb5feb60800000000000000
-      internalID: 7777536191847206825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_157
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 148
-        width: 32
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7abd84da56e44cfe0800000000000000
-      internalID: -1169723804603589721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_158
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 150
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05b865c27952d2320800000000000000
-      internalID: 2534723496493615952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_159
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 145
-        width: 32
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 080933898d0425d70800000000000000
-      internalID: 9030351501841895552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_160
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 125
-        width: 65
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05b2dd142d9a4f120800000000000000
-      internalID: 2446767218082261840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_161
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 126
-        width: 50
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa3c4db7a225135a0800000000000000
-      internalID: -6543358441172974678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_162
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 133
-        width: 52
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8122dedb179b2a620800000000000000
-      internalID: 2783991417837265432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_163
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 134
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4c9f031128203cf0800000000000000
-      internalID: -274675454750778292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_164
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 142
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a638f78f202113090800000000000000
-      internalID: -8056638454420765846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_165
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 134
-        width: 31
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2133be68a96bd540800000000000000
-      internalID: 5033733180649320750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_166
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 135
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11b9ee85e62a87ed0800000000000000
-      internalID: -2416002605262136559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_167
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 139
-        width: 19
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39fd4e99c7b52a3f0800000000000000
-      internalID: -891049185549951085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_168
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 111
-        width: 30
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 683522a53ffa90e00800000000000000
-      internalID: 1011533051045499782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_169
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 111
-        width: 30
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 117e798b52a6c43c0800000000000000
-      internalID: -4374004427840297199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_170
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 113
-        width: 28
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f59fdd74a577fa90800000000000000
-      internalID: -7280220923274226185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_171
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 121
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb3facd963d8c9140800000000000000
-      internalID: 4727808974547252159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_172
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 111
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85fb0afdb8ef7f620800000000000000
-      internalID: 2807992769394556760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_173
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 113
-        width: 20
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71264b034989cd190800000000000000
-      internalID: -7936300681093946857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_174
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 126
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a482d9e34b3a001d0800000000000000
-      internalID: -3386526925242685366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_175
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 118
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e4e4840c1f06afc0800000000000000
-      internalID: -3484080648715180826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_176
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 111
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02ee432fc02062b50800000000000000
-      internalID: 6567939361192865312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_177
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 115
-        width: 31
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35ef26fb2db15e210800000000000000
-      internalID: 1361525054317461075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_178
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 64
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70a570ccf4142d3a0800000000000000
-      internalID: -6642174689436804601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_179
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 65
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0676926db415f1da0800000000000000
-      internalID: -5971965194712553632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_180
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 63
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 193a112436725c640800000000000000
-      internalID: 5099525460330652561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_181
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 66
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58a3c1812d2108000800000000000000
-      internalID: 36049490575899269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_182
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 58
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 513573f995c4129b0800000000000000
-      internalID: -5106716554654428395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_183
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 66
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c2ba8d81350b0d00800000000000000
-      internalID: 939850657623093952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_184
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 53
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 495d3e34e281f1350800000000000000
-      internalID: 5989532616412616084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_185
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 52
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9abe8520348549e0800000000000000
-      internalID: -1637757547155899750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_186
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 64
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 678d8c1d712da2c60800000000000000
-      internalID: 7794273104863746166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_187
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 55
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17cb8b717de2332f0800000000000000
-      internalID: -994399591367918479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_188
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 51
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7e6ffc8d5529caf0800000000000000
-      internalID: -375728010180989314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_189
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 64
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1eb425e3212afda10800000000000000
-      internalID: 1936444564031294433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_190
-      rect:
-        serializedVersion: 2
-        x: 439
-        y: 57
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c3eb22bbb26c2860800000000000000
-      internalID: 7506483237207401415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_191
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 46
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79b5d785f16f3ee20800000000000000
-      internalID: 3378814759947033495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_192
-      rect:
-        serializedVersion: 2
-        x: 510
-        y: 63
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ee69e37c789ec1d0800000000000000
-      internalID: -3328555414292173082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_193
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 50
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 606b3a9e0dfa1c1d0800000000000000
-      internalID: -3332188937469577722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_194
-      rect:
-        serializedVersion: 2
-        x: 596
-        y: 51
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c967b8e323051ca40800000000000000
-      internalID: 5386674806039738012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_195
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 64
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0f01d8a6d459cb70800000000000000
-      internalID: 8919753817915985675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_196
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 57
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 758918e4fe1052840800000000000000
-      internalID: 5198563472195033175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_197
-      rect:
-        serializedVersion: 2
-        x: 689
-        y: 46
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60d5f5d838aa856c0800000000000000
-      internalID: -4154383174260007674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_198
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 63
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a9a1fcff2f832bc0800000000000000
-      internalID: -3809043423555376732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_199
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 50
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fecc51ae5bf55efb0800000000000000
-      internalID: -4619180607877559057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_200
-      rect:
-        serializedVersion: 2
-        x: 788
-        y: 51
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 620f2ba37960ca3a0800000000000000
-      internalID: -6652935302938431450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_201
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 64
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea2e936e23b6503e0800000000000000
-      internalID: -2088144985861266770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_202
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 57
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57e5c35df5ee188e0800000000000000
-      internalID: -1692809889547788683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_203
-      rect:
-        serializedVersion: 2
-        x: 881
-        y: 46
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6715233246e3b0a00800000000000000
-      internalID: 723740764931248502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_204
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 63
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1133653e6471b21e0800000000000000
-      internalID: -2221656397947981039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_205
-      rect:
-        serializedVersion: 2
-        x: 918
-        y: 50
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d903ea5e30b8b300800000000000000
-      internalID: 268157959687834070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_206
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 48
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42b146be0c660b690800000000000000
-      internalID: -7588452393350325468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_207
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 48
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 772e4eab624177530800000000000000
-      internalID: 3852570162815623799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_208
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 46
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1b698ae74c60fbd0800000000000000
-      internalID: -2598457928859423969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_209
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 49
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa21e09c385cfbbf0800000000000000
-      internalID: -306309079833374033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_210
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 42
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e7c1f8e7e852fb20800000000000000
-      internalID: 3166691241063729123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_211
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 41
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43ba847f7a397b420800000000000000
-      internalID: 2645745655721012020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_212
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 35
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da86b51edc0ae8b70800000000000000
-      internalID: 8903230319467653293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_213
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 34
-        width: 21
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d79c7d117ec58740800000000000000
-      internalID: 5153752333816731602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_214
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 37
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89f0ed2b676af9200800000000000000
-      internalID: 189052738110099352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_215
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 29
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 291d6c748972cf1b0800000000000000
-      internalID: -5621574699872497262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_216
-      rect:
-        serializedVersion: 2
-        x: 543
-        y: 33
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1521caaff04bb0100800000000000000
-      internalID: 75351799504835153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_217
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 34
-        width: 21
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4db1507acbde4a410800000000000000
-      internalID: 1487575171450870740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_218
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 37
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65974b6834faada40800000000000000
-      internalID: 5393816208287234390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_219
-      rect:
-        serializedVersion: 2
-        x: 692
-        y: 29
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a26c36c901d9dcea0800000000000000
-      internalID: -5850847646215584214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_220
-      rect:
-        serializedVersion: 2
-        x: 735
-        y: 33
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f60c17b16b5c77e0800000000000000
-      internalID: -1766436478594054410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_221
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 34
-        width: 21
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 199b64ff6e9f06520800000000000000
-      internalID: 2693427347688176017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_222
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 37
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51dcb1e7641c9be20800000000000000
-      internalID: 3366934704943779093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_223
-      rect:
-        serializedVersion: 2
-        x: 884
-        y: 29
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fdd8c73b7d870d80800000000000000
-      internalID: -8284497429168333320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_224
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 33
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4aea821c4b7e24fb0800000000000000
-      internalID: -4664911500481614172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_225
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 40
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f47f34c68c6203bd0800000000000000
-      internalID: -2652577538269513905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_226
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 37
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5489303d1f1be0ac0800000000000000
-      internalID: -3886973776188696507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_227
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 31
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38499544f0ca82470800000000000000
-      internalID: 8370129089039275139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_228
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 33
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35ac8dcb7665c1450800000000000000
-      internalID: 6060814202083789395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_229
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 26
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e53b0637518b3d990800000000000000
-      internalID: -7362338563551087778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_230
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 31
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e4a5ba06e987ec50800000000000000
-      internalID: 6694470992224691425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_231
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 24
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49bd399523f22c060800000000000000
-      internalID: 6972187066420681620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_232
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 31
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06915f2e34e0a6db0800000000000000
-      internalID: -4798006768276530848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_233
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 22
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a29984708548be690800000000000000
-      internalID: -7571812834879170262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_234
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 19
-        width: 18
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a1cea080f2c31790800000000000000
-      internalID: -7560485011218054750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_235
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 20
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df22d17da28488d40800000000000000
-      internalID: 5586794686587937533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_236
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 18
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5c28c2628ae91fe0800000000000000
-      internalID: -1217684378503074725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_237
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 17
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c995306c3db29f20800000000000000
-      internalID: 3428010333392181698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_238
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 20
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ace82a0ae10810b0800000000000000
-      internalID: -5757850018888749919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_239
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 20
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8414bb62bb0e99d10800000000000000
-      internalID: 2132982992949952840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_240
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 18
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5352a2f6508607890800000000000000
-      internalID: -7462350210003753675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_241
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 17
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29c993448a86afe80800000000000000
-      internalID: -8144081904237699950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_242
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 20
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b003b6ee11b06060800000000000000
-      internalID: 6944745371682930864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_243
-      rect:
-        serializedVersion: 2
-        x: 795
-        y: 20
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21c5c824fd23474c0800000000000000
-      internalID: -4290748610501649390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_244
-      rect:
-        serializedVersion: 2
-        x: 814
-        y: 18
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6781919f680a131c0800000000000000
-      internalID: -4525659648965404554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_245
-      rect:
-        serializedVersion: 2
-        x: 893
-        y: 17
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0a4393718d67d4b0800000000000000
-      internalID: -5415739624132490739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_246
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 20
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe92375055c6a1030800000000000000
-      internalID: 3466201975634471407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_247
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 18
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4f6bb2a7e0ae7880800000000000000
-      internalID: -8611268520757727412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_248
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 22
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86fe5080a88cc2720800000000000000
-      internalID: 2822851561620107112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_249
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 22
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba40a29a0b4b16340800000000000000
-      internalID: 4855360544127452331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElementalSkills_250
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 22
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ceb1ba276150a650800000000000000
-      internalID: 6242078587075280584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9b9a815c45d0114e9826828b61ad2ca
     internalID: 0
     vertices: []
     indices: 
@@ -6397,7 +1799,49 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElementalSkills_0: -6009240322972548097
+      ElementalSkills_1: 1578476122166873486
+      ElementalSkills_10: -3519037392727022566
+      ElementalSkills_11: 1336488796542871148
+      ElementalSkills_12: 2659114163025984956
+      ElementalSkills_13: -3285745053845024093
+      ElementalSkills_14: -8819519842522350574
+      ElementalSkills_15: -1981686900064549756
+      ElementalSkills_16: 995770372152467071
+      ElementalSkills_17: -6216742545644494261
+      ElementalSkills_18: 3595633838649772365
+      ElementalSkills_19: -7845494663360247008
+      ElementalSkills_2: 4101913072606635305
+      ElementalSkills_20: 5972767421808273405
+      ElementalSkills_21: 2689550964927890016
+      ElementalSkills_22: -7125618340982998101
+      ElementalSkills_23: -1809295501694859647
+      ElementalSkills_24: 595125239369829596
+      ElementalSkills_25: 624240860726743210
+      ElementalSkills_26: 7768817015589612375
+      ElementalSkills_27: -2177961222096583939
+      ElementalSkills_28: -3553339025514257798
+      ElementalSkills_29: 3855026378507808672
+      ElementalSkills_3: -3629291874850666077
+      ElementalSkills_30: 4003478490306083561
+      ElementalSkills_31: -8193444373395324316
+      ElementalSkills_32: -1755101175343668416
+      ElementalSkills_33: 5170427088796313779
+      ElementalSkills_34: -714772258364458621
+      ElementalSkills_35: 1663275512834046123
+      ElementalSkills_36: -8819973148653194175
+      ElementalSkills_37: -7808626062794015590
+      ElementalSkills_38: -1233997757943960781
+      ElementalSkills_39: -456225781560505404
+      ElementalSkills_4: 7938304523168743789
+      ElementalSkills_40: 4993948459425074571
+      ElementalSkills_41: -857806281475954811
+      ElementalSkills_5: 726127633708405365
+      ElementalSkills_6: -3076862305910282067
+      ElementalSkills_7: -8691409825921876785
+      ElementalSkills_8: 5444616181340673930
+      ElementalSkills_9: 5161786001099102781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

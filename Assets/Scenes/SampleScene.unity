@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 10353698}
   - component: {fileID: 10353697}
   - component: {fileID: 10353699}
+  - component: {fileID: 10353700}
   m_Layer: 0
   m_Name: Momo_1
   m_TagString: Untagged
@@ -364,6 +365,70 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10353700}
+        m_TargetAssemblyTypeName: Abilities, Assembly-CSharp
+        m_MethodName: OnAirAbility
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 302ee960-499d-44dc-a10a-d3505ab9431c
+    m_ActionName: 'Abilities/AirAbility[/Keyboard/7]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10353700}
+        m_TargetAssemblyTypeName: Abilities, Assembly-CSharp
+        m_MethodName: OnWaterAbility
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d9fb1598-3403-4ac2-8a2c-a4e47046e7ab
+    m_ActionName: 'Abilities/WaterAbility[/Keyboard/8]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10353700}
+        m_TargetAssemblyTypeName: Abilities, Assembly-CSharp
+        m_MethodName: OnEarthAbility
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c7c9f6b1-7112-4dc0-86d7-a779716aa50e
+    m_ActionName: 'Abilities/EarthAbility[/Keyboard/9]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10353700}
+        m_TargetAssemblyTypeName: Abilities, Assembly-CSharp
+        m_MethodName: OnFireAbility
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fbf2b942-1b25-4a28-9195-8e4967a88044
+    m_ActionName: 'Abilities/FireAbility[/Keyboard/0]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -391,6 +456,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &10353700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10353693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54810eea16dc854ca8c47b4051b2e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airEffectPrefab: {fileID: 7029733235095099631, guid: d9e9cdcde3437a741b4ce3b5a40d97df, type: 3}
+  waterEffectPrefab: {fileID: 7280861807183501472, guid: 2be4950f14600c54db7779e1ef686446, type: 3}
+  earthEffectPrefab: {fileID: 2652064487184049060, guid: 34e95f7f2a63efb4ca74803d77799ec5, type: 3}
+  fireEffectPrefab: {fileID: 2901846787659985461, guid: dde1cea9b647cc445871dc8a9252099c, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
