@@ -45,6 +45,9 @@ TagManager:
   - name: Abyss
     uniqueID: 151548703
     locked: 0
+  - name: Abyss Decor
+    uniqueID: 130496345
+    locked: 0
   - name: Ground
     uniqueID: 750080177
     locked: 0
