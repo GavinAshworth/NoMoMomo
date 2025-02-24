@@ -5,14 +5,14 @@ public class Checkpoint : MonoBehaviour
     [SerializeField] private Transform checkpoint; //checkpoint location
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the collided object is Momo (e.g., by tag or layer)
-        if (collision.CompareTag("Player")) // Assuming Momo has the "Player" tag
+        // Check if the collided object is Momo 
+        if (collision.CompareTag("Player")) // Making sure its only momo who triggers this
         {
             // Get Momo's AbyssCollision script and update the start position
-            AbyssCollision momo = collision.GetComponent<AbyssCollision>();
+            Momo momo = collision.GetComponent<Momo>();
             if (momo != null)
             {
-                momo.UpdateStartPosition(checkpoint.position);
+                momo.UpdateRespawnPosition(checkpoint.position);
                 Debug.Log("Checkpoint updated to: " + transform.position);
             }
         }

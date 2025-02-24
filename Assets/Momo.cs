@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class Momo : MonoBehaviour
 {
     [SerializeField] private float moveDistance = 1f; // Movement step size for momo. This should be 1 tile worth
     [SerializeField] private float moveTime = 0.5f;  // Time to complete movement, change based on animation
@@ -13,9 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer; // Using this to flip the sprite when moving to the left as I didnt make a move left animation
     private Camera mainCamera;
 
-    private float lastInputX = 0f;  // These keep track of where momo should be facing
-    private float lastInputY = 1f;
-
+    //Momos respawn point. Gets updated based on checkpoint
+    [SerializeField] private Vector3 respawnPoint; // Momo's current reset position
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         mainCamera = Camera.main;
 
-        animator.SetFloat("LastInputY", lastInputY); // Just making momo start facing forward
+        animator.SetFloat("LastInputY", 1); // Just making momo start facing forward
     }
 
     private void Update()
@@ -34,18 +33,40 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 targetPosition = (Vector2)transform.position + moveDirection * moveDistance; // Calc our next position
 
-            // Check if the target position is within the camera's viewport
-            if (IsPositionInCameraView(targetPosition))
-            {
-                StartCoroutine(MoveToPosition(targetPosition)); // This allows us to move smoothly instead of just teleporting, looks nicer
-            }
-            else
-            {
+            //We check if momo wants to jump outside the frame
+            if(!IsPositionInCameraView(targetPosition)){
                 //we stop the jump animation
                 animator.SetBool("isJumping", false); // Reset the jumping animation
                 moveDirection = Vector2.zero; // Reset input
                 Debug.Log("Cannot move outside the camera!");
+                return;
             }
+           
+            //We check the tile that we are going to move to for collisions
+            Collider2D platform = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
+            Collider2D abyss = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Abyss"));
+            Collider2D ground = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Ground")); //non moving ground that momo is safe on
+            // If momo lands on a platfrom we attach him to it
+            if (platform != null) {
+                transform.SetParent(platform.transform);
+            } else {
+                transform.SetParent(null);
+            }
+
+            // Momo dies when he lands in the abyss (loses a life and gets reset)
+            if (abyss != null && platform == null && ground == null)
+            {
+                StopAllCoroutines();
+                moveDirection = Vector2.zero;
+                animator.SetBool("isJumping", false);
+                //here we will call death function once game manager is set up. right now we will just reset momo
+                transform.position = respawnPoint;
+                //Death();
+            }else{
+                StopAllCoroutines();
+                StartCoroutine(MoveToPosition(targetPosition)); // This allows us to move smoothly instead of just teleporting, looks nicer
+            }
+           
         }
     }
 
@@ -62,9 +83,6 @@ public class PlayerMovement : MonoBehaviour
         else
             moveDirection = new Vector2(0, Mathf.Sign(input.y));
 
-        lastInputX = moveDirection.x;
-        lastInputY = moveDirection.y;
-
         // Flip the sprite if moving left
         if (moveDirection.x < 0)
             spriteRenderer.flipX = true; // Flip the sprite to face left
@@ -73,8 +91,8 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("InputX", moveDirection.x);
         animator.SetFloat("InputY", moveDirection.y);
-        animator.SetFloat("LastInputX", lastInputX);
-        animator.SetFloat("LastInputY", lastInputY);
+        animator.SetFloat("LastInputX", moveDirection.x);
+        animator.SetFloat("LastInputY", moveDirection.y);
     }
 
     // How we generate smooth movement despite our snappy frogger move style
@@ -107,5 +125,11 @@ public class PlayerMovement : MonoBehaviour
         // Check if the position is within the camera's viewport (0 to 1 in both X and Y)
         return viewportPosition.x >= 0 && viewportPosition.x <= 1 &&
                viewportPosition.y >= 0 && viewportPosition.y <= 1;
+    }
+
+     //this is called by our checkpoint system to update the reset point for momo upon sucessful reach of a checkpointa
+    public void UpdateRespawnPosition(Vector3 newPosition)
+    {
+        respawnPoint = newPosition;
     }
 }
