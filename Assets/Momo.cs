@@ -12,6 +12,7 @@ public class Momo : MonoBehaviour
     private Animator animator; // Our animator used for sprite animations
     private SpriteRenderer spriteRenderer; // Using this to flip the sprite when moving to the left as I didnt make a move left animation
     private Camera mainCamera;
+    private Abilities abilities;
 
     //Momos respawn point. Gets updated based on checkpoint
     [SerializeField] private Vector3 respawnPoint; // Momo's current reset position
@@ -21,7 +22,7 @@ public class Momo : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         mainCamera = Camera.main;
-
+        abilities = GetComponent<Abilities>();
         animator.SetFloat("LastInputY", 1); // Just making momo start facing forward
     }
 
@@ -56,8 +57,8 @@ public class Momo : MonoBehaviour
             // Momo dies when he lands in the abyss (loses a life and gets reset)
             if (abyss != null && platform == null && ground == null)
             {
-                //Call our death function
-                Death(targetPosition);
+                //Call our death function. Currently everything just does 1 damage for now
+                Death(targetPosition, 1);
             }else{
                 StopAllCoroutines();
                 StartCoroutine(MoveToPosition(targetPosition)); // This allows us to move smoothly instead of just teleporting, looks nicer
@@ -129,12 +130,10 @@ public class Momo : MonoBehaviour
         respawnPoint = newPosition;
     }
 
-    public void Death(Vector2 target){
-        //here we will call died function once game manager is set up. right now we will just reset momo and place a hurt sprite at the location
+    public void Death(Vector2 target, int damage){
         StopAllCoroutines();    
         moveDirection = Vector2.zero;
         animator.SetBool("isJumping", false);
-        transform.position = respawnPoint;
         //Show hurt sprite at the destination tile
         if(deathSprite!=null){
             GameObject deathFeedback = Instantiate(deathSprite, target, Quaternion.identity);
@@ -143,5 +142,31 @@ public class Momo : MonoBehaviour
         }else{
             Debug.Log("No death sprite attached to momo script");
         }
+
+        //Reset Momo's abilities
+        abilities.ResetAbility();
+        //Disable control of this script so momo cant move during death
+        enabled = false;
+
+        //Disable momo so he cannot do anything while dead
+
+        gameObject.SetActive(false);
+
+        //Call our death function in the game manager
+        GameManager.Instance.HasDied(damage);
+    }
+
+    public void Respawn(){
+        //This is called by our game manager after death, if we have more lives left
+        StopAllCoroutines(); 
+
+        //Re enable momo
+        gameObject.SetActive(true);
+
+        //re-enable control
+        enabled = true;
+
+        //spawn momo at respawn point
+        transform.position = respawnPoint;
     }
 }

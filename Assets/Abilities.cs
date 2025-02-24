@@ -11,6 +11,8 @@ public class Abilities : MonoBehaviour
     [SerializeField] private GameObject earthEffectPrefab;
     [SerializeField] private GameObject fireEffectPrefab;
 
+    private GameObject effect;
+
     private bool isAbilityActive = false; // Flag to track if an ability is currently active
 
 
@@ -66,7 +68,7 @@ public class Abilities : MonoBehaviour
         isAbilityActive = true;
 
         // Instantiate the effect prefab as a child of Momo so we can make it follow him
-        GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity, transform);
+        effect = Instantiate(effectPrefab, transform.position, Quaternion.identity, transform);
 
         // Get the Animator component of the effect
         Animator effectAnimator = effect.GetComponent<Animator>();
@@ -78,14 +80,13 @@ public class Abilities : MonoBehaviour
 
         // Destroy the effect after the animation finishes
         float animationLength = effectAnimator.GetCurrentAnimatorStateInfo(0).length;
-        Destroy(effect, animationLength);
-
         // Reset the ability flag after the animation finishes
         Invoke(nameof(ResetAbility), animationLength);
     }
 
-    private void ResetAbility()
+    public void ResetAbility()
     {
+        Destroy(effect);
         isAbilityActive = false;
     }
 }
