@@ -5,7 +5,7 @@ public class Momo : MonoBehaviour
 {
     [SerializeField] private float moveDistance = 1f; // Movement step size for momo. This should be 1 tile worth
     [SerializeField] private float moveTime = 0.5f;  // Time to complete movement, change based on animation
-
+    [SerializeField] private GameObject deathSprite;
     private Rigidbody2D rb;
     private Vector2 moveDirection;
     private bool isMoving = false; // Prevents multiple inputs before finishing move, like arcade version
@@ -56,12 +56,8 @@ public class Momo : MonoBehaviour
             // Momo dies when he lands in the abyss (loses a life and gets reset)
             if (abyss != null && platform == null && ground == null)
             {
-                StopAllCoroutines();
-                moveDirection = Vector2.zero;
-                animator.SetBool("isJumping", false);
-                //here we will call death function once game manager is set up. right now we will just reset momo
-                transform.position = respawnPoint;
-                //Death();
+                //Call our death function
+                Death(targetPosition);
             }else{
                 StopAllCoroutines();
                 StartCoroutine(MoveToPosition(targetPosition)); // This allows us to move smoothly instead of just teleporting, looks nicer
@@ -131,5 +127,21 @@ public class Momo : MonoBehaviour
     public void UpdateRespawnPosition(Vector3 newPosition)
     {
         respawnPoint = newPosition;
+    }
+
+    public void Death(Vector2 target){
+        //here we will call died function once game manager is set up. right now we will just reset momo and place a hurt sprite at the location
+        StopAllCoroutines();    
+        moveDirection = Vector2.zero;
+        animator.SetBool("isJumping", false);
+        transform.position = respawnPoint;
+        //Show hurt sprite at the destination tile
+        if(deathSprite!=null){
+            GameObject deathFeedback = Instantiate(deathSprite, target, Quaternion.identity);
+            //We will have it last for a couple seconds and then destroy it. Maybe later we will have it fade out
+            Destroy(deathFeedback, 2f);
+        }else{
+            Debug.Log("No death sprite attached to momo script");
+        }
     }
 }
