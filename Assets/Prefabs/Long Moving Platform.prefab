@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6480687259998608590}
   - component: {fileID: 1750315578147658059}
   - component: {fileID: 8164708561248257638}
-  m_Layer: 7
-  m_Name: Moving Platform Long
+  m_Layer: 9
+  m_Name: Long Moving Platform
   m_TagString: Moving Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf535754c0bef4aac060186066c270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
 --- !u!61 &8164708561248257638
 BoxCollider2D:
   m_ObjectHideFlags: 0
