@@ -54,8 +54,8 @@ public class Momo : MonoBehaviour
                 transform.SetParent(null);
             }
 
-            // Momo dies when he lands in the abyss (loses a life and gets reset)
-            if (abyss != null && platform == null && ground == null)
+            // Momo dies when he lands in the abyss (loses a life and gets reset). If he is flying (using air ability we dont call this)
+            if (abyss != null && platform == null && ground == null && !abilities.GetIsFlying())
             {
                 //Call our death function. Currently everything just does 1 damage for now
                 Death(targetPosition, 1);
@@ -144,7 +144,7 @@ public class Momo : MonoBehaviour
         }
 
         //Reset Momo's abilities
-        abilities.ResetAbility();
+        abilities.StopAbility();
         //Disable control of this script so momo cant move during death
         enabled = false;
 
@@ -168,5 +168,12 @@ public class Momo : MonoBehaviour
 
         //spawn momo at respawn point
         transform.position = respawnPoint;
+    }
+    private void OnTriggerEnter2D(Collider2D collision){
+        //This is for when momo gets hit by a projectile
+        bool isProjectile = collision.gameObject.layer == LayerMask.NameToLayer("Projectile");
+        if(isProjectile) {
+            Death(transform.position,1);
+        }
     }
 }

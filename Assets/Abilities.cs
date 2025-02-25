@@ -10,11 +10,17 @@ public class Abilities : MonoBehaviour
     [SerializeField] private GameObject waterEffectPrefab;
     [SerializeField] private GameObject earthEffectPrefab;
     [SerializeField] private GameObject fireEffectPrefab;
-
     private GameObject effect;
 
-    private bool isAbilityActive = false; // Flag to track if an ability is currently active
+    private bool isFlying = false;
+    private Momo momo;
 
+    private bool isAbilityActive = false; // Flag to track if an ability is currently active
+    private int currentAbility = -1;
+
+    private void Start(){
+        momo = GetComponent<Momo>();
+    }
 
     public void OnAirAbility(InputAction.CallbackContext context)
     {
@@ -23,6 +29,8 @@ public class Abilities : MonoBehaviour
             Debug.Log("Air Ability Used");
             SpawnEffect(airEffectPrefab);
             // Here is where our ability logic goes (e.g. momo will float not be able to fall off platforms for a few seconds)
+            isFlying = true;
+            currentAbility = 0;
         }
     }
 
@@ -33,6 +41,7 @@ public class Abilities : MonoBehaviour
             Debug.Log("Water Ability Used");
             SpawnEffect(waterEffectPrefab);
              // Here is where our ability logic goes (e.g. momo regenerates 1 life)
+             currentAbility = 1;
         }
     }
 
@@ -43,6 +52,7 @@ public class Abilities : MonoBehaviour
             Debug.Log("Earth Ability Used");
             SpawnEffect(earthEffectPrefab);
             //  // Here is where ability logic goes (e.g. momo will get a shield for 3 seconds)
+            currentAbility = 2;
         }
     }
 
@@ -53,6 +63,7 @@ public class Abilities : MonoBehaviour
             Debug.Log("Fire Ability Used");
             SpawnEffect(fireEffectPrefab);
              // Here is where ability logic goes (e.g. momo will shoot a fire explosion out, not sure what this does yet)
+             currentAbility = 3;
         }
     }
 
@@ -84,9 +95,32 @@ public class Abilities : MonoBehaviour
         Invoke(nameof(ResetAbility), animationLength);
     }
 
-    public void ResetAbility()
+    private void ResetAbility()
     {
+        StopAbility();
+
+        if(currentAbility == 0){ //ie) If we are resetting the air ability
+            isFlying = false;
+            //check if momo is touching the abyss and not on a platform (This is a case where momo used the air ability and didnt make it to a platform in time)
+            Collider2D platform = Physics2D.OverlapBox(transform.position, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
+            Collider2D abyss = Physics2D.OverlapBox(transform.position, Vector2.zero, 0f, LayerMask.GetMask("Abyss"));
+            Collider2D ground = Physics2D.OverlapBox(transform.position, Vector2.zero, 0f, LayerMask.GetMask("Ground")); //non moving ground that momo is safe on
+            if (abyss != null && platform == null && ground == null)
+            {
+                //Call our death function. Currently everything just does 1 damage for now
+                momo.Death(transform.position, 1);
+            }
+        }
+
+        currentAbility = -1;
+    }
+
+    public void StopAbility(){
         Destroy(effect);
         isAbilityActive = false;
+    }
+
+    public bool GetIsFlying(){
+        return isFlying;
     }
 }
