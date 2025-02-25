@@ -96,6 +96,14 @@ public class GameManager : MonoBehaviour
         //Game Over Screen here
 
     }
-
+    public void Heal(){
+        if(lives<3){
+            SetLives(lives + 1);
+        }
+        else{
+            Debug.Log("Full Lives");
+        }
+        
+    }
 
 }

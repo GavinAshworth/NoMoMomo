@@ -42,6 +42,7 @@ public class Abilities : MonoBehaviour
             SpawnEffect(waterEffectPrefab);
              // Here is where our ability logic goes (e.g. momo regenerates 1 life)
              currentAbility = 1;
+             GameManager.Instance.Heal();
         }
     }
 
