@@ -17,7 +17,7 @@ TagManager:
   - Ground
   - Abyss
   - Platform
-  - 
+  - Projectile
   - 
   - 
   - 
@@ -57,6 +57,9 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 889874135
+    locked: 0
+  - name: Projectile
+    uniqueID: 1493926477
     locked: 0
   m_RenderingLayers:
   - Default

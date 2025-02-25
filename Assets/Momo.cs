@@ -6,6 +6,7 @@ public class Momo : MonoBehaviour
     [SerializeField] private float moveDistance = 1f; // Movement step size for momo. This should be 1 tile worth
     [SerializeField] private float moveTime = 0.5f;  // Time to complete movement, change based on animation
     [SerializeField] private GameObject deathSprite;
+    [SerializeField] private bool isGodMode;
     private Rigidbody2D rb;
     private Vector2 moveDirection;
     private bool isMoving = false; // Prevents multiple inputs before finishing move, like arcade version
@@ -131,9 +132,12 @@ public class Momo : MonoBehaviour
     }
 
     public void Death(Vector2 target, int damage){
+        if(isGodMode) return;// for testing/debugging
         StopAllCoroutines();    
         moveDirection = Vector2.zero;
+        isMoving = false;
         animator.SetBool("isJumping", false);
+        transform.parent=null;
         //Show hurt sprite at the destination tile
         if(deathSprite!=null){
             GameObject deathFeedback = Instantiate(deathSprite, target, Quaternion.identity);

@@ -53,7 +53,6 @@ public class GameManager : MonoBehaviour
     public void LevelUp(){
         //Called when Momo hits a checkpoint 
         level = level + 1;
-        Debug.Log("My name jeff + = " + level);
     }
 
     public void UnlockAbility(int ability){

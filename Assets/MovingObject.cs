@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class MovingObject : MonoBehaviour
 {
     private Transform spawnPoint; // Spawn point for the platform
     private Transform endPoint; // End point for the platform
     private float speed;
     private SpriteRenderer spriteRenderer;
     private int level;
+    private bool isReverse;
 
-    public void Initialize(Transform spawn, Transform end, float moveSpeed, Sprite platformSprite, int platformLevel)
+    public void Initialize(Transform spawn, Transform end, float moveSpeed, Sprite platformSprite, int platformLevel, bool reverse)
     {
         spawnPoint = spawn;
         endPoint = end;
@@ -17,6 +18,11 @@ public class MovingPlatform : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = platformSprite;
         level = platformLevel;
+        isReverse = reverse;
+
+        if(isReverse){
+            spriteRenderer.flipX = true;
+        }
     }
 
     private void Update()
@@ -30,9 +36,6 @@ public class MovingPlatform : MonoBehaviour
 
         // If the platform reaches the end point, reset it to the spawn point
         if (Vector2.Distance(transform.position, endPoint.position) < 0.1f){
-        
-            Debug.Log(endPoint.position + " end");
-            Debug.Log(transform.position + " platform");
             transform.position = spawnPoint.position;
         }
     }

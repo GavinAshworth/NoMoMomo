@@ -57,11 +57,11 @@ public class PlatformSpawner : MonoBehaviour
         {
             if(isLong){
                 platforms[i] = Instantiate(longPrefab, spawnPoint.position, Quaternion.identity);
-                platforms[i].GetComponent<MovingPlatform>().Initialize(spawnPoint, endPoint, moveSpeed, longSprite,level);
+                platforms[i].GetComponent<MovingObject>().Initialize(spawnPoint, endPoint, moveSpeed, longSprite,level, isReverse);
             }
             else{
                 platforms[i] = Instantiate(shortPrefab, spawnPoint.position, Quaternion.identity);
-                platforms[i].GetComponent<MovingPlatform>().Initialize(spawnPoint, endPoint, moveSpeed, shortSprite, level);
+                platforms[i].GetComponent<MovingObject>().Initialize(spawnPoint, endPoint, moveSpeed, shortSprite, level, isReverse);
             }
             platforms[i].SetActive(false); // Start inactive
         }
