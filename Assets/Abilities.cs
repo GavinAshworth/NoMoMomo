@@ -111,6 +111,10 @@ public class Abilities : MonoBehaviour
                 //Call our death function. Currently everything just does 1 damage for now
                 momo.Death(transform.position, 1);
             }
+            else if(platform !=null){
+                //If momo lands on a platfrom at the end of the ability he should ride it
+                transform.SetParent(platform.transform);
+            }
         }
 
         currentAbility = -1;

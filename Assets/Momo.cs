@@ -137,7 +137,7 @@ public class Momo : MonoBehaviour
         moveDirection = Vector2.zero;
         isMoving = false;
         animator.SetBool("isJumping", false);
-        transform.parent=null;
+        transform.SetParent(null);
         //Show hurt sprite at the destination tile
         if(deathSprite!=null){
             GameObject deathFeedback = Instantiate(deathSprite, target, Quaternion.identity);
