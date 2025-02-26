@@ -8,8 +8,9 @@ public class MovingObject : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private int level;
     private bool isReverse;
+    private bool isProjectile;
 
-    public void Initialize(Transform spawn, Transform end, float moveSpeed, Sprite platformSprite, int platformLevel, bool reverse)
+    public void Initialize(Transform spawn, Transform end, float moveSpeed, Sprite platformSprite, int platformLevel, bool reverse, bool projectile)
     {
         spawnPoint = spawn;
         endPoint = end;
@@ -19,6 +20,7 @@ public class MovingObject : MonoBehaviour
         spriteRenderer.sprite = platformSprite;
         level = platformLevel;
         isReverse = reverse;
+        isProjectile = projectile;
 
         if(isReverse){
             spriteRenderer.flipX = true;
@@ -36,6 +38,12 @@ public class MovingObject : MonoBehaviour
 
         // If the platform reaches the end point, reset it to the spawn point
         if (Vector2.Distance(transform.position, endPoint.position) < 0.1f){
+            transform.position = spawnPoint.position;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision){
+        if(collision.CompareTag("Earth Ability") && isProjectile){
             transform.position = spawnPoint.position;
         }
     }

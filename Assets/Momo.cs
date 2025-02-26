@@ -176,7 +176,7 @@ public class Momo : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         //This is for when momo gets hit by a projectile
         bool isProjectile = collision.gameObject.layer == LayerMask.NameToLayer("Projectile");
-        if(isProjectile) {
+        if(isProjectile && !abilities.GetIsShielded()) {
             Death(transform.position,1);
         }
     }

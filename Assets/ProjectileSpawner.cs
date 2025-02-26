@@ -52,7 +52,7 @@ public class ProjectileSpawner : MonoBehaviour
         {
         
             projectiles[i] = Instantiate(projectilePrefab, spawnPoint.position, Quaternion.identity);
-            projectiles[i].GetComponent<MovingObject>().Initialize(spawnPoint, endPoint, moveSpeed, projectileSprite, level, isReverse);
+            projectiles[i].GetComponent<MovingObject>().Initialize(spawnPoint, endPoint, moveSpeed, projectileSprite, level, isReverse, true);
             projectiles[i].SetActive(false); // Start inactive
         }
     }

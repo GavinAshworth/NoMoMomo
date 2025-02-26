@@ -13,6 +13,7 @@ public class Abilities : MonoBehaviour
     private GameObject effect;
 
     private bool isFlying = false;
+    private bool isShielded = false;
     private Momo momo;
 
     private bool isAbilityActive = false; // Flag to track if an ability is currently active
@@ -53,6 +54,7 @@ public class Abilities : MonoBehaviour
             Debug.Log("Earth Ability Used");
             SpawnEffect(earthEffectPrefab);
             //  // Here is where ability logic goes (e.g. momo will get a shield for 3 seconds)
+            isShielded = true;
             currentAbility = 2;
         }
     }
@@ -117,6 +119,9 @@ public class Abilities : MonoBehaviour
             }
         }
 
+        if(currentAbility == 2){
+            isShielded = false;
+        }
         currentAbility = -1;
     }
 
@@ -127,5 +132,8 @@ public class Abilities : MonoBehaviour
 
     public bool GetIsFlying(){
         return isFlying;
+    }
+    public bool GetIsShielded(){
+        return isShielded;
     }
 }
