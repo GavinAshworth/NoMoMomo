@@ -520,7 +520,7 @@ MonoBehaviour:
   moveDistance: 1
   moveTime: 0.5
   deathSprite: {fileID: 4305827557115709909, guid: d92b40a1f26c9f44692a400558dd404d, type: 3}
-  isGodMode: 1
+  isGodMode: 0
   respawnPoint: {x: 0.5, y: -4.25, z: 0}
 --- !u!1 &141749560
 GameObject:
