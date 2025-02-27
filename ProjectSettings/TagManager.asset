@@ -8,6 +8,7 @@ TagManager:
   - Moving Platform
   - Earth Ability
   - Fire Ability
+  - Azula
   layers:
   - Default
   - TransparentFX

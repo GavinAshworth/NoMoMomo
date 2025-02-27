@@ -1137,9 +1137,11 @@ GameObject:
   - component: {fileID: 579050354}
   - component: {fileID: 579050353}
   - component: {fileID: 579050355}
+  - component: {fileID: 579050356}
+  - component: {fileID: 579050357}
   m_Layer: 0
   m_Name: Azula
-  m_TagString: Untagged
+  m_TagString: Azula
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,6 +1238,54 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &579050356
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579050352}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.84
+--- !u!114 &579050357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579050352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9ee5a31087934a80e6b7e573f29d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &605349150
 GameObject:
   m_ObjectHideFlags: 0
@@ -17511,6 +17561,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 216853830}
     m_Modifications:
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3279437017189892556, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 579050354}
+    - target: {fileID: 3422359990836152279, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: azula
+      value: 
+      objectReference: {fileID: 579050357}
     - target: {fileID: 7361017672773193230, guid: 0a38131df75202441a561616c6623692, type: 3}
       propertyPath: m_Name
       value: Crystal (3)
@@ -17568,6 +17630,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 216853830}
     m_Modifications:
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.b
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.g
+      value: 0.17254902
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.r
+      value: 0.23529413
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key1.b
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key1.g
+      value: 0.17254902
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key1.r
+      value: 0.23529413
+      objectReference: {fileID: 0}
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3279437017189892556, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 579050354}
+    - target: {fileID: 3422359990836152279, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: azula
+      value: 
+      objectReference: {fileID: 579050357}
     - target: {fileID: 7361017672773193230, guid: 0a38131df75202441a561616c6623692, type: 3}
       propertyPath: m_Name
       value: Crystal (1)
@@ -18160,6 +18274,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 216853830}
     m_Modifications:
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3279437017189892556, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 579050354}
+    - target: {fileID: 3422359990836152279, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: azula
+      value: 
+      objectReference: {fileID: 579050357}
     - target: {fileID: 7361017672773193230, guid: 0a38131df75202441a561616c6623692, type: 3}
       propertyPath: m_Name
       value: Crystal (2)
@@ -21566,6 +21692,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 216853830}
     m_Modifications:
+    - target: {fileID: -6347814048583346283, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3279437017189892556, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 579050354}
+    - target: {fileID: 3422359990836152279, guid: 0a38131df75202441a561616c6623692, type: 3}
+      propertyPath: azula
+      value: 
+      objectReference: {fileID: 579050357}
     - target: {fileID: 7361017672773193230, guid: 0a38131df75202441a561616c6623692, type: 3}
       propertyPath: m_Name
       value: Crystal
