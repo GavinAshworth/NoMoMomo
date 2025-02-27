@@ -22,6 +22,7 @@ public class Crystal : MonoBehaviour
             //Hurt azula
 
             //Set is broken to true so we cant retrigger this
+            isBroken = true;
         }
     }
 }
