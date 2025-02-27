@@ -95,11 +95,13 @@ public class Abilities : MonoBehaviour
         // Destroy the effect after the animation finishes
         float animationLength = effectAnimator.GetCurrentAnimatorStateInfo(0).length;
         // Reset the ability flag after the animation finishes
-        Invoke(nameof(ResetAbility), animationLength);
+        StartCoroutine(ResetAbility(animationLength));
     }
 
-    private void ResetAbility()
+    private System.Collections.IEnumerator ResetAbility(float animationLength)
     {
+        yield return new WaitForSeconds(animationLength);
+        if(!isAbilityActive) yield break;
         StopAbility();
 
         if(currentAbility == 0){ //ie) If we are resetting the air ability
