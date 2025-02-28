@@ -9,6 +9,7 @@ TagManager:
   - Earth Ability
   - Fire Ability
   - Azula
+  - Tile Lightning
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Tilemaps;
 
 public class Azula : MonoBehaviour
 {
@@ -13,6 +14,14 @@ public class Azula : MonoBehaviour
     [SerializeField] int poolSize = 100; // Number of fireballs to pool
     [SerializeField] float fireballSpeed = 5f; // Speed of fireballs
     [SerializeField] float fireballResetDistance = 15f; // Distance at which fireballs reset
+    [SerializeField] Tilemap pathToCrystals; //This is the path that allows momo to get to crystals
+    [SerializeField] GameObject LightningSet1;
+    [SerializeField] GameObject LightningSet2;
+    [SerializeField] GameObject LightningSet1B;
+    [SerializeField] GameObject LightningSet2B;
+    private bool isPathAvailable = true;
+
+
     private bool isResetting;
 
     private int fireCount;
@@ -27,6 +36,12 @@ public class Azula : MonoBehaviour
             fireball.SetActive(false); // Deactivate fireballs initially
             fireballPool.Add(fireball);
         }
+
+        //Set the Lightning sets to inactive
+        LightningSet1.SetActive(false);
+        LightningSet2.SetActive(false);
+        LightningSet1B.SetActive(false);
+        LightningSet2B.SetActive(false);
     }
 
     void Update()
@@ -49,7 +64,7 @@ public class Azula : MonoBehaviour
     private void PerformRandomAttack()
     {
         anim.SetBool("IsAttack", true);
-        int attackChoice = Random.Range(0, 3); // 0 = Lightning, 1,2 = Fire
+        int attackChoice = Random.Range(0, 2); // 0 = Lightning, 1,2 = Fire
 
         if (attackChoice == 0)
         {
@@ -153,9 +168,25 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
 
     private void LightningIndicator(){
         //Spawn animation of lightning indicator on tiles
+        int lightningChoice = Random.Range(0, 2);
+        if(lightningChoice == 0){
+            LightningSet1.SetActive(true);
+            if(isPathAvailable){
+                LightningSet1B.SetActive(true);
+            }
+        }else{
+            LightningSet2.SetActive(true);
+            if(isPathAvailable){
+                LightningSet2B.SetActive(true);
+            }
+        } 
     }
     private void LightningDamage(){
         //Make the actual damage happen 
+        LightningSet1.SetActive(false);
+        LightningSet2.SetActive(false);
+        LightningSet1B.SetActive(false);
+        LightningSet2B.SetActive(false);
         StartCoroutine(ResetAttackCooldown(0));
     }
 
@@ -171,11 +202,11 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
         anim.SetBool("IsAttack", false);
         if(type == 0){
             //pause two seconds after lightning attack
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(2f);
         }else{
             //pause 1 second after fire attack
             anim.SetBool("isFireAttack", false);
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(3f);
         }
         readyToAttack = true;
         isResetting = false;
@@ -191,11 +222,24 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
         SetLives(lives - 1);
         anim.SetTrigger("Hurt");
         readyToAttack = true; //immediatley good to attack again
+        LightningSet1.SetActive(false); //Turn off the lightning attacks
+        LightningSet2.SetActive(false);
+        LightningSet1B.SetActive(false);
+        LightningSet2B.SetActive(false);
+        StartCoroutine(removePath()); //remove paths
         if (lives <= 0)
         {
             // Transition to Death animation here and disable attacks
             isAlive = false;
             anim.SetBool("IsDead", true);
         }
+    }
+
+    private System.Collections.IEnumerator removePath(){
+        pathToCrystals.gameObject.SetActive(false);
+        isPathAvailable = false;
+        yield return new WaitForSeconds(10f); //path goes away for 10 seconds
+        pathToCrystals.gameObject.SetActive(true);
+        isPathAvailable = true;
     }
 }
