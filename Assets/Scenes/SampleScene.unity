@@ -2946,8 +2946,8 @@ MonoBehaviour:
   pathToCrystals: {fileID: 1153343080}
   LightningSet1: {fileID: 535076820}
   LightningSet2: {fileID: 75494511}
-  LightningSet1B: {fileID: 2076170654}
-  LightningSet2B: {fileID: 727836425}
+  LightningSet1B: {fileID: 727836425}
+  LightningSet2B: {fileID: 2076170654}
 --- !u!1001 &615742679
 PrefabInstance:
   m_ObjectHideFlags: 0

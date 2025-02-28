@@ -206,7 +206,7 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
         }else{
             //pause 1 second after fire attack
             anim.SetBool("isFireAttack", false);
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(4f);
         }
         readyToAttack = true;
         isResetting = false;
