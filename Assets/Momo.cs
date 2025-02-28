@@ -43,18 +43,21 @@ public class Momo : MonoBehaviour
                 Debug.Log("Cannot move outside the camera!");
                 return;
             }
-           
+           Debug.Log(abilities.GetIsFlying() + "AAAAAAAAAAAAA");
             //We check the tile that we are going to move to for collisions
             Collider2D platform = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
             Collider2D abyss = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Abyss"));
             Collider2D ground = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Ground")); //non moving ground that momo is safe on
+            Collider2D projectile = Physics2D.OverlapBox(targetPosition, Vector2.zero, 0f, LayerMask.GetMask("Projectile"));
             // If momo lands on a platfrom we attach him to it
             if (platform != null) {
                 transform.SetParent(platform.transform);
             } else {
                 transform.SetParent(null);
             }
-
+            if(projectile!=null && !abilities.GetIsShielded()){
+                Death(targetPosition,1);
+            }
             // Momo dies when he lands in the abyss (loses a life and gets reset). If he is flying (using air ability we dont call this)
             if (abyss != null && platform == null && ground == null && !abilities.GetIsFlying())
             {

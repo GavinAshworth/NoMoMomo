@@ -11,9 +11,9 @@ public class Azula : MonoBehaviour
     [SerializeField] GameObject fireballPrefab; // Prefab for the fireball
     [SerializeField] GameObject momo; // Player
     [SerializeField] int poolSize = 100; // Number of fireballs to pool
-    [SerializeField] float fireballSpeed = 10f; // Speed of fireballs
-    [SerializeField] float fireballResetDistance = 50f; // Distance at which fireballs reset
-
+    [SerializeField] float fireballSpeed = 5f; // Speed of fireballs
+    [SerializeField] float fireballResetDistance = 15f; // Distance at which fireballs reset
+    private bool isResetting;
 
     private int fireCount;
     void Start()
@@ -31,7 +31,7 @@ public class Azula : MonoBehaviour
 
     void Update()
     {
-        if (readyToAttack && isAlive && GameManager.Instance.level ==5)
+        if (readyToAttack && isAlive /*&& GameManager.Instance.level ==5*/)
         {
             PerformRandomAttack();
         }
@@ -49,7 +49,7 @@ public class Azula : MonoBehaviour
     private void PerformRandomAttack()
     {
         anim.SetBool("IsAttack", true);
-        int attackChoice = Random.Range(0, 5); // 0 = Lightning, 1 = Fire
+        int attackChoice = Random.Range(0, 3); // 0 = Lightning, 1,2 = Fire
 
         if (attackChoice == 0)
         {
@@ -65,37 +65,65 @@ public class Azula : MonoBehaviour
     {
         readyToAttack = false;
         anim.SetTrigger("LightningAttack");
-        //attack here
-
-        float lightningLength = anim.GetCurrentAnimatorStateInfo(0).length;
-        //pause for duration of attack
-        yield return new WaitForSeconds(lightningLength);
-        StartCoroutine(ResetAttackCooldown(0)); 
+        yield return null; 
     }
 
     private System.Collections.IEnumerator PerformFireBarrage()
     {
         readyToAttack = false;
+        //Up difficulty based on lives left
         fireCount = 5 + (4 - lives)*2;
-        while(fireCount>0){
-            anim.SetTrigger("FireAttack");
-            yield return null;
-        }     
+        fireballSpeed = 5 + (4 - lives)*2;
+        anim.SetBool("isFireAttack", true);
+        yield return null;     
     }
 
     private void SpawnFireball(){
-        GameObject fireball = GetFireballFromPool();
-        fireball.SetActive(true);
-        fireball.transform.position = transform.position;
-        // Initialize the fireball
-        AzulaFireBall fireballScript = fireball.GetComponent<AzulaFireBall>();
-        fireballScript.Initialize(transform, momo.transform, fireballSpeed);
-        //reduce fireCount
-        fireCount--;
-        if(fireCount==0){
-            StartCoroutine(ResetAttackCooldown(1));
-        }
+    if (fireCount <= 0)
+    {
+        return;
     }
+
+    // Fireball aimed at momo
+    SpawnSingleFireballAtTarget(momo.transform.position);
+
+    // Calculate how many lives have been lost
+    int livesLost = 4 - lives;
+
+    // For each life lost, add two more fireballs (left & right)
+    for (int i = 1; i <= livesLost; i++)
+    {
+        float offset = 2f * i;  // 2, 4, 6 for each lost life
+
+        // Left and Right positions relative to momo
+        Vector3 leftOffset = momo.transform.position + Vector3.left * offset;
+        Vector3 rightOffset = momo.transform.position + Vector3.right * offset;
+
+        SpawnSingleFireballAtTarget(leftOffset);
+        SpawnSingleFireballAtTarget(rightOffset);
+    }
+
+    // Reduce fire count (each "burst" counts as one shot, regardless of how many fireballs it contains)
+    fireCount--;
+
+    if (fireCount <= 1 && !isResetting)
+    {
+        StartCoroutine(ResetAttackCooldown(1));
+    }
+}
+
+private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
+{
+    GameObject fireball = GetFireballFromPool();
+    if (fireball == null) return;
+
+    fireball.SetActive(true);
+    fireball.transform.position = transform.position;  // Spawn from Azula
+
+    // Point the fireball at the target position
+    AzulaFireBall fireballScript = fireball.GetComponent<AzulaFireBall>();
+    fireballScript.Initialize(transform, targetPosition, fireballSpeed);
+}
 
     private int GetFireballCount()
     {
@@ -123,6 +151,14 @@ public class Azula : MonoBehaviour
         return null; // No available fireballs
     }
 
+    private void LightningIndicator(){
+        //Spawn animation of lightning indicator on tiles
+    }
+    private void LightningDamage(){
+        //Make the actual damage happen 
+        StartCoroutine(ResetAttackCooldown(0));
+    }
+
     private void ResetFireball(GameObject fireball)
     {
         fireball.SetActive(false);
@@ -131,15 +167,18 @@ public class Azula : MonoBehaviour
 
     private System.Collections.IEnumerator ResetAttackCooldown(int type)
     {
+        isResetting = true;
         anim.SetBool("IsAttack", false);
         if(type == 0){
             //pause two seconds after lightning attack
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(5f);
         }else{
             //pause 1 second after fire attack
-            yield return new WaitForSeconds(1.5f);
+            anim.SetBool("isFireAttack", false);
+            yield return new WaitForSeconds(5f);
         }
         readyToAttack = true;
+        isResetting = false;
     }
 
     private void SetLives(int lives)
@@ -151,6 +190,7 @@ public class Azula : MonoBehaviour
     {
         SetLives(lives - 1);
         anim.SetTrigger("Hurt");
+        readyToAttack = true; //immediatley good to attack again
         if (lives <= 0)
         {
             // Transition to Death animation here and disable attacks

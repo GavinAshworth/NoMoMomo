@@ -27,7 +27,6 @@ public class Abilities : MonoBehaviour
     {
         if (context.performed && !isAbilityActive)
         {
-            Debug.Log("Air Ability Used");
             SpawnEffect(airEffectPrefab);
             // Here is where our ability logic goes (e.g. momo will float not be able to fall off platforms for a few seconds)
             isFlying = true;
@@ -39,7 +38,6 @@ public class Abilities : MonoBehaviour
     {
         if (context.performed && !isAbilityActive)
         {
-            Debug.Log("Water Ability Used");
             SpawnEffect(waterEffectPrefab);
              // Here is where our ability logic goes (e.g. momo regenerates 1 life)
              currentAbility = 1;
@@ -51,7 +49,6 @@ public class Abilities : MonoBehaviour
     {
         if (context.performed && !isAbilityActive)
         {
-            Debug.Log("Earth Ability Used");
             SpawnEffect(earthEffectPrefab);
             //  // Here is where ability logic goes (e.g. momo will get a shield for 3 seconds)
             isShielded = true;
@@ -63,7 +60,6 @@ public class Abilities : MonoBehaviour
     {
         if (context.performed && !isAbilityActive)
         {
-            Debug.Log("Fire Ability Used");
             SpawnEffect(fireEffectPrefab);
              // Here is where ability logic goes (e.g. momo will shoot a fire explosion out, not sure what this does yet)
              currentAbility = 3;
@@ -130,6 +126,8 @@ public class Abilities : MonoBehaviour
     public void StopAbility(){
         Destroy(effect);
         isAbilityActive = false;
+        isFlying = false;
+        isShielded = false;
     }
 
     public bool GetIsFlying(){

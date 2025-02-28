@@ -3,25 +3,25 @@ using UnityEngine;
 public class AzulaFireBall : MonoBehaviour
 {
     private Transform spawnPoint; // Spawn point for the fireball
-    private Transform target; // Target (Momo)
+    private Vector3 targetPosition; // Target position (could be momo or an offset tile)
     private float speed;
     private Vector2 direction;
 
-    public void Initialize(Transform spawn, Transform end, float moveSpeed)
+    public void Initialize(Transform spawn, Vector3 endPosition, float moveSpeed)
     {
         spawnPoint = spawn;
-        target = end;
+        targetPosition = endPosition;
         speed = moveSpeed;
-        direction = (end.position - transform.position).normalized;
+        direction = (endPosition - transform.position).normalized;
 
-        // Rotate the fireball to face Momo
+        // Rotate the fireball to face target position
         RotateTowardsTarget();
     }
 
     private void Update()
     {
         // Move the fireball in the specified direction
-        transform.position += (Vector3)(direction*speed*Time.deltaTime);
+        transform.position += (Vector3)(direction * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,17 +34,14 @@ public class AzulaFireBall : MonoBehaviour
 
     private void RotateTowardsTarget()
     {
-        if (target != null)
-        {
-            // Calculate the direction to the target
-            Vector2 directionToTarget = (target.position - spawnPoint.position).normalized;
+        // Calculate the direction to the target position
+        Vector2 directionToTarget = (targetPosition - spawnPoint.position).normalized;
 
-            // Calculate the angle in degrees
-            float angle = Mathf.Atan2(directionToTarget.y, directionToTarget.x) * Mathf.Rad2Deg;
+        // Calculate the angle in degrees
+        float angle = Mathf.Atan2(directionToTarget.y, directionToTarget.x) * Mathf.Rad2Deg;
 
-            // Apply the rotation to the fireball
-            transform.rotation = Quaternion.Euler(0, 0, angle);
-        }
+        // Apply the rotation to the fireball
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     private void ResetFireball()
