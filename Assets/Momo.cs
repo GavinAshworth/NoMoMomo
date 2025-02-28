@@ -31,11 +31,10 @@ public class Momo : MonoBehaviour
         //for testing purposes, goes to level 5 and brings momo to the boss
         if(startAtAzula){
             transform.position = new Vector3(0.5f, 41.69f, 0f);
-            for(int i = 0; i<4; i++){
+            for(int i = 0; i<3; i++){
                 GameManager.Instance.LevelUp();
             }
         }
-        Debug.Log(GameManager.Instance.level);
     }
 
     private void Update()
@@ -66,11 +65,11 @@ public class Momo : MonoBehaviour
             } else {
                 transform.SetParent(null);
             }
-            if(projectile!=null && !abilities.GetIsShielded()){
+            if(projectile!=null && !abilities.GetIsShielded() && !isGodMode){
                 Death(targetPosition,1);
             }
             // Momo dies when he lands in the abyss (loses a life and gets reset). If he is flying (using air ability we dont call this)
-            if (abyss != null && platform == null && ground == null && !abilities.GetIsFlying())
+            if (abyss != null && platform == null && ground == null && !abilities.GetIsFlying() && !isGodMode)
             {
                 //Call our death function. Currently everything just does 1 damage for now
                 Death(targetPosition, 1);
@@ -125,6 +124,11 @@ public class Momo : MonoBehaviour
         rb.linearVelocity = Vector2.zero; // Stop movement
         isMoving = false;
         moveDirection = Vector2.zero; // Reset input
+
+        //We snap Y to the nearest whole number to prevent some stupid bugs
+        Vector3 pos = transform.position;
+        pos.y = Mathf.Round(pos.y);
+        transform.position = pos;
 
         animator.SetBool("isJumping", false); // Stops the jumping animation and returns to idle
     }
