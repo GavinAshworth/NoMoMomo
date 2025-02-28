@@ -14,6 +14,7 @@ public class Momo : MonoBehaviour
     private SpriteRenderer spriteRenderer; // Using this to flip the sprite when moving to the left as I didnt make a move left animation
     private Camera mainCamera;
     private Abilities abilities;
+    [SerializeField] bool startAtAzula;
 
     //Momos respawn point. Gets updated based on checkpoint
     [SerializeField] private Vector3 respawnPoint; // Momo's current reset position
@@ -25,6 +26,16 @@ public class Momo : MonoBehaviour
         mainCamera = Camera.main;
         abilities = GetComponent<Abilities>();
         animator.SetFloat("LastInputY", 1); // Just making momo start facing forward
+
+
+        //for testing purposes, goes to level 5 and brings momo to the boss
+        if(startAtAzula){
+            transform.position = new Vector3(0.5f, 41.69f, 0f);
+            for(int i = 0; i<4; i++){
+                GameManager.Instance.LevelUp();
+            }
+        }
+        Debug.Log(GameManager.Instance.level);
     }
 
     private void Update()

@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Momo momo; //Instance of our Momo script attached to momo
 
     public int score { get; private set; } = 0;
-    public int lives { get; private set; } = 3;
+    public int lives { get; private set; } = 50;
     public bool[] abilities { get; private set; }  = new bool[4];
     public int level { get; private set; } = 1;
     public float timeLimit { get; private set; } = 300f;
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     private void NewGame(){
         //Instantiate a new game here
         SetScore(0);
-        SetLives(3);
+        SetLives(50); //Change back to 3 eventually
         abilities = new bool[] {false,false,false,false}; //Momo starts with no abilities unlocked
         level = 1; //Momo starts at the air level
 
@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour
 
     }
     public void Heal(){
-        if(lives<3){
+        if(lives<50){ // set to 3 when done developing
             SetLives(lives + 1);
         }
         else{

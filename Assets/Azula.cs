@@ -31,7 +31,7 @@ public class Azula : MonoBehaviour
 
     void Update()
     {
-        if (readyToAttack && isAlive /*&& GameManager.Instance.level ==5*/)
+        if (readyToAttack && isAlive && GameManager.Instance.level ==5)
         {
             PerformRandomAttack();
         }
