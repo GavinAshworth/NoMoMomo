@@ -20,6 +20,10 @@ public class CameraTransition : MonoBehaviour
             //Also move momo up one tile after the transition so hes not half in half out
             collision.transform.position += Vector3.up * 1f;
 
+            //This ensures that when momo enters a new map he is centered again
+            Vector3 pos = collision.transform.position;
+            pos.x = Mathf.Round(pos.x) + 0.5f;
+            collision.transform.position = pos;
         }
     }
 

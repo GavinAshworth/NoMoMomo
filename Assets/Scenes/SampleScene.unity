@@ -525,7 +525,7 @@ MonoBehaviour:
   moveDistance: 1
   moveTime: 0.25
   deathSprite: {fileID: 4305827557115709909, guid: d92b40a1f26c9f44692a400558dd404d, type: 3}
-  isGodMode: 0
+  isGodMode: 1
   startAtAzula: 1
   respawnPoint: {x: 0.5, y: -4.25, z: 0}
 --- !u!1001 &13348115

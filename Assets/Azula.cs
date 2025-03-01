@@ -38,10 +38,7 @@ public class Azula : MonoBehaviour
         }
 
         //Set the Lightning sets to inactive
-        LightningSet1.SetActive(false);
-        LightningSet2.SetActive(false);
-        LightningSet1B.SetActive(false);
-        LightningSet2B.SetActive(false);
+        resetLightningTiles();
     }
 
     void Update()
@@ -64,7 +61,7 @@ public class Azula : MonoBehaviour
     private void PerformRandomAttack()
     {
         anim.SetBool("IsAttack", true);
-        int attackChoice = Random.Range(0, 2); // 0 = Lightning, 1,2 = Fire
+        int attackChoice = Random.Range(0, 1); // 0 = Lightning, 1,2 = Fire
 
         if (attackChoice == 0)
         {
@@ -167,6 +164,7 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
     }
 
     private void LightningIndicator(){
+        Debug.Log("My name is jeff");
         //Spawn animation of lightning indicator on tiles
         int lightningChoice = Random.Range(0, 2);
         if(lightningChoice == 0){
@@ -182,11 +180,8 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
         } 
     }
     private void LightningDamage(){
-        //Make the actual damage happen 
-        LightningSet1.SetActive(false);
-        LightningSet2.SetActive(false);
-        LightningSet1B.SetActive(false);
-        LightningSet2B.SetActive(false);
+        //This is actually turning off the effect. Lightning damage comes from the objects themselves
+        resetLightningTiles();
         StartCoroutine(ResetAttackCooldown(0));
     }
 
@@ -204,7 +199,7 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
             //pause two seconds after lightning attack
             yield return new WaitForSeconds(2f);
         }else{
-            //pause 1 second after fire attack
+            //pause 4 second after fire attack
             anim.SetBool("isFireAttack", false);
             yield return new WaitForSeconds(4f);
         }
@@ -221,11 +216,8 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
     {
         SetLives(lives - 1);
         anim.SetTrigger("Hurt");
+        anim.SetBool("IsAttack", false);
         readyToAttack = true; //immediatley good to attack again
-        LightningSet1.SetActive(false); //Turn off the lightning attacks
-        LightningSet2.SetActive(false);
-        LightningSet1B.SetActive(false);
-        LightningSet2B.SetActive(false);
         StartCoroutine(removePath()); //remove paths
         if (lives <= 0)
         {
@@ -241,5 +233,11 @@ private void SpawnSingleFireballAtTarget(Vector3 targetPosition)
         yield return new WaitForSeconds(10f); //path goes away for 10 seconds
         pathToCrystals.gameObject.SetActive(true);
         isPathAvailable = true;
+    }
+    public void resetLightningTiles(){
+        LightningSet1.SetActive(false); //Turn off the lightning attacks
+        LightningSet2.SetActive(false);
+        LightningSet1B.SetActive(false);
+        LightningSet2B.SetActive(false);
     }
 }
